@@ -6,44 +6,23 @@ var input = function(userInput) {
   return firstLetter + lastLetter;
 };
 var resultOne = input(userInput);
-//alert(resultOne);
-//var firstFunctionResult = input();
-
-// alert(firstFunctionResult());
 
 var reverse = function(resultOne) {
   return resultOne.split("").reverse().join("");
 }
 
 var resultTwo = reverse(resultOne);
-//alert(resultTwo);
 
 var thirdFunction = function(resultOne,resultTwo){
-  alert(resultOne);
-  alert(resultTwo);
+  var concat = userInput.concat(resultTwo);
+  alert(concat);
 }
-thirdFunction(resultOne,resultTwo);
 
-
-
-
-
-//
-// var thirdFunction = function(input, inverse){
-//   alert(input(firstLetter, lastLetter));
-//   alert(inverse(lastLetter, firstLetter));
-// }
-//
-// var functionThree(aThing) {
-//   var result = input(aThing);
-//   inverse(result)
-// }
-
-//var userInput = prompt("Tell us something interesting:");
-//alert(input(userInput));
-
-//thirdFunction(firstLetter, lastLetter);
-
-//functionThree(userInput);
-
-//functions are values
+var forthFunction = function(userInput){
+  //var roundDownn = Math.floor(n);
+  alert (userInput.slice);
+  //var half = roundDownn.charAt(roundDownn.length -1);
+  //alert(roundDownn);
+};
+forthFunction(userInput);
+//thirdFunction(resultOne,resultTwo);
